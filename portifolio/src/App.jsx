@@ -114,6 +114,18 @@ const skills = [
   percentage: 40,
   description: 'Learning web development with Django',
 },
+{
+  name: 'HTML',
+  level: 'Comfortable',
+  percentage: 80,
+  description: 'Semantic markup and accessible page structure',
+},
+{
+  name: 'CSS',
+  level: 'Developing',
+  percentage: 80,
+  description: 'Responsive layouts, Flexbox, Grid, and animations',
+},
 ];
 
 function App() {
