@@ -1,0 +1,111 @@
+:root {
+  --purple: #7c3aed;
+  --purple-dark: #5b21b6;
+  --purple-light: #a78bfa;
+  --purple-soft: #ede9fe;
+  --page-bg: #faf8ff;
+  --surface: #ffffff;
+  --text-primary: #2e2342;
+  --text-secondary: #6b6280;
+  --border: #e9e1f5;
+}
+.hero-name {
+  color: var(--purple-dark);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  margin-inline: auto;
+  border-right: 3px solid var(--purple);
+  animation: typing 3s steps(14) infinite alternate;
+  direction: ltr;
+  text-align: center;
+}
+.projects {
+  padding: 60px 20px;
+}
+
+.projects > h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.project-card {
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-links a:hover {
+  color: var(--purple-dark);
+}
+
+.project-info h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+}
+
+.project-info p {
+  
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.project-info > span {
+  display: block;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.tech-badge {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: var(--purple-soft);
+  color: var(--purple-dark);
+  font-size: 0.85rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-links a {
+ color: var(--purple);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: var(--purple-dark);
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 40px 15px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+}

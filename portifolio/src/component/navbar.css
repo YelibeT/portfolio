@@ -1,0 +1,45 @@
+:root {
+  --purple: #7c3aed;
+  --purple-dark: #5b21b6;
+  --purple-light: #a78bfa;
+  --purple-soft: #ede9fe;
+  --page-bg: #faf8ff;
+  --surface: #ffffff;
+  --text-primary: #2e2342;
+  --text-secondary: #6b6280;
+  --border: #e9e1f5;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:visited {
+  color: var(--text-secondary);
+}
+
+nav a:hover {
+  color: var(--purple);
+}
+
+@media (max-width: 600px) {
+  nav {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+}

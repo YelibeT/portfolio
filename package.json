@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npm --prefix portifolio run dev",
+    "build": "npm --prefix portifolio run build",
+    "lint": "npm --prefix portifolio run lint",
+    "preview": "npm --prefix portifolio run preview"
+  },
+  "dependencies": {
+    "react-icons": "^5.7.0",
+    "react-router-dom": "^7.18.4"
+  }
+}
