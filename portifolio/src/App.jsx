@@ -35,17 +35,61 @@ const skills = [
     description: 'Building backend APIs',
   },
   {
+  name: 'C++',
+  level: 'Fundamentals',
+  percentage: 50,
+  description: 'Programming fundamentals and problem solving',
+},
+  {
     name: 'React.js',
     level: 'Intermediate',
-    percentage: 70,
+    percentage: 80,
     description: 'Components, props, state, hooks, routing,...',
   },
   {
     name: 'Node.js',
     level: 'Intermediate',
-    percentage: 70,
+    percentage: 80,
     description: 'Building backend APIs',
   },
+  {
+  name: 'FastAPI',
+  level: 'Beginner',
+  percentage: 60,
+  description: 'Building Python APIs',
+},
+{
+  name: 'REST APIs',
+  level: 'Intermediate',
+  percentage: 70,
+  description: 'Designing endpoints, HTTP methods, and request/response handling',
+},
+  {
+  name: 'MongoDB',
+  level: 'Intermediate',
+  percentage: 60,
+  description: 'Document databases and data modeling',
+},
+{
+  name: 'PostgreSQL',
+  level: 'Intermediate',
+  percentage: 65,
+  description: 'Relational databases and SQL queries',
+},
+
+
+{
+  name: 'Git',
+  level: 'Comfortable',
+  percentage: 80,
+  description: 'Version control, branching, merging, and resolving conflicts',
+},
+{
+  name: 'GitHub',
+  level: 'Comfortable',
+  percentage: 80,
+  description: 'Managing repositories, commits, pull requests, and collaboration',
+},
   {
   name: 'Redis',
   level: 'Learning',
@@ -59,52 +103,16 @@ const skills = [
   description: 'Managing global states',
 },
 {
-  name: 'MongoDB',
-  level: 'Intermediate',
-  percentage: 60,
-  description: 'Document databases and data modeling',
-},
-{
-  name: 'PostgreSQL',
-  level: 'Intermediate',
-  percentage: 65,
-  description: 'Relational databases and SQL queries',
-},
-{
-  name: 'FastAPI',
-  level: 'Beginner',
-  percentage: 60,
-  description: 'Building Python APIs',
-},
-{
-  name: 'C++',
-  level: 'Fundamentals',
-  percentage: 50,
-  description: 'Programming fundamentals and problem solving',
+  name: 'Zustand',
+  level: 'Learning',
+  percentage: 35,
+  description: 'Managing global states',
 },
 {
   name: 'Django',
   level: 'Learning',
   percentage: 40,
   description: 'Learning web development with Django',
-},
-{
-  name: 'REST APIs',
-  level: 'Intermediate',
-  percentage: 70,
-  description: 'Designing endpoints, HTTP methods, and request/response handling',
-},
-{
-  name: 'Git',
-  level: 'Comfortable',
-  percentage: 80,
-  description: 'Version control, branching, merging, and resolving conflicts',
-},
-{
-  name: 'GitHub',
-  level: 'Comfortable',
-  percentage: 80,
-  description: 'Managing repositories, commits, pull requests, and collaboration',
 },
 ];
 
