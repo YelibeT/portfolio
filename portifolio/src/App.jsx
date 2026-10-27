@@ -24,13 +24,13 @@ import { FaLinkedin } from 'react-icons/fa6';
 const skills = [
   {
     name: 'JavaScript',
-    level: 'Excellent',
+    level: 'Comfortable',
     percentage: 90,
     description: 'Building interactive applications and backend APIs',
   },
   {
     name: 'Python',
-    level: 'Excellent',
+    level: 'Comfortable',
     percentage: 90,
     description: 'Building backend APIs',
   },

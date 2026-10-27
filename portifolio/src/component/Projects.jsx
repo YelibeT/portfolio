@@ -7,7 +7,7 @@ const projects = [
     intro: 'Website application for displaying menu and ordering built with React.js,Node.js, MongoDB',
     description:
       'A restaurant website that presents its menu and provides visitors with an easy way to explore its offerings.',
-    technologies: ['React', 'JavaScript', 'CSS'],
+    technologies: ['React', 'JavaScript', 'CSS', 'MongoDB', 'Node.js'],
     link: 'https://restaurant-site-zwdi-6e7k64da4-yelibets-projects.vercel.app',
     github: 'https://github.com/YelibeT/Restaurant-site',
   },
@@ -24,7 +24,7 @@ const projects = [
     title: 'LeetCode Tracker',
     intro: 'A Telegram bot and REST API built with FastAPI, SQLAlchemy, and SQLite',
     description:'Developed a Telegram-based LeetCode tracking system that allows users to register their profiles, retrieve and monitor their LeetCode progress, and interact with their coding statistics through bot commands and a REST API. Implemented database models, API endpoints, user registration, and Telegram command handling with persistent data storage',
-    technologies: ['Python', 'FastAPI', 'SQLAlchemy', 'SQLite'],
+    technologies: ['Python', 'FastAPI', 'SQLAlchemy', 'SQLite', 'Telegram Bot'],
     link: 'https://t.me/leeetcode_tracker_bot',
     github: 'https://github.com/YelibeT/Leetcode-Tracker', 
   },
