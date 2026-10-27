@@ -94,6 +94,18 @@ const skills = [
   percentage: 70,
   description: 'Designing endpoints, HTTP methods, and request/response handling',
 },
+{
+  name: 'Git',
+  level: 'Comfortable',
+  percentage: 80,
+  description: 'Version control, branching, merging, and resolving conflicts',
+},
+{
+  name: 'GitHub',
+  level: 'Comfortable',
+  percentage: 80,
+  description: 'Managing repositories, commits, pull requests, and collaboration',
+},
 ];
 
 function App() {
